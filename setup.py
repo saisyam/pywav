@@ -8,7 +8,7 @@ setup(
   author = 'Saisyam Dampuri',                   
   author_email = 'saisyam@saisyam.com', 
   url = 'https://github.com/saisyam/pywav',  
-  download_url = 'https://github.com/saisyam/pywav/archive/v_01.tar.gz', 
+  download_url = 'https://github.com/saisyam/pywav/archive/ver_01.tar.gz', 
   keywords = ['wave', 'wav read', 'wav write'],   
   install_requires=[],            
   classifiers=[
