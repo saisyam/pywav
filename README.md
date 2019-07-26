@@ -4,6 +4,12 @@ I am building a tool to test SIP applications. I am trying to convert RTP payloa
 # WavRead and WavWrite
 There are two classes WavRead and WavWrite which will perform reading and writing of wave files respectively. Currenlty PCM, PCMU and PCMA formats are supported. You will get the raw data from the RTP stream which you can write into the wave file by providing information about the audio format, number of channels, sample rate etc.
 
+# Installing pywav
+You can install pywav using pip3. No additional dependencies required.
+```shell
+$> pip3 install pywav
+```
+
 # Reading example
 ```python
 wave_read = pywav.WavRead("<filename to read>")
